@@ -1,0 +1,3699 @@
+fileFormatVersion: 2
+guid: 3026e60ad771fb64d875e28116153065
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sasuke_0
+    21300002: Sasuke_1
+    21300004: Sasuke_2
+    21300006: Sasuke_3
+    21300008: Sasuke_4
+    21300010: Sasuke_5
+    21300012: Sasuke_6
+    21300014: Sasuke_7
+    21300016: Sasuke_8
+    21300018: Sasuke_9
+    21300020: Sasuke_10
+    21300022: Sasuke_11
+    21300024: Sasuke_12
+    21300026: Sasuke_13
+    21300028: Sasuke_14
+    21300030: Sasuke_15
+    21300032: Sasuke_16
+    21300034: Sasuke_17
+    21300036: Sasuke_18
+    21300038: Sasuke_19
+    21300040: Sasuke_20
+    21300042: Sasuke_21
+    21300044: Sasuke_22
+    21300046: Sasuke_23
+    21300048: Sasuke_24
+    21300050: Sasuke_25
+    21300052: Sasuke_26
+    21300054: Sasuke_27
+    21300056: Sasuke_28
+    21300058: Sasuke_29
+    21300060: Sasuke_30
+    21300062: Sasuke_31
+    21300064: Sasuke_32
+    21300066: Sasuke_33
+    21300068: Sasuke_34
+    21300070: Sasuke_35
+    21300072: Sasuke_36
+    21300074: Sasuke_37
+    21300076: Sasuke_38
+    21300078: Sasuke_39
+    21300080: Sasuke_40
+    21300082: Sasuke_41
+    21300084: Sasuke_42
+    21300086: Sasuke_43
+    21300088: Sasuke_44
+    21300090: Sasuke_45
+    21300092: Sasuke_46
+    21300094: Sasuke_47
+    21300096: Sasuke_48
+    21300098: Sasuke_49
+    21300100: Sasuke_50
+    21300102: Sasuke_51
+    21300104: Sasuke_52
+    21300106: Sasuke_53
+    21300108: Sasuke_54
+    21300110: Sasuke_55
+    21300112: Sasuke_56
+    21300114: Sasuke_57
+    21300116: Sasuke_58
+    21300118: Sasuke_59
+    21300120: Sasuke_60
+    21300122: Sasuke_61
+    21300124: Sasuke_62
+    21300126: Sasuke_63
+    21300128: Sasuke_64
+    21300130: Sasuke_65
+    21300132: Sasuke_66
+    21300134: Sasuke_67
+    21300136: Sasuke_68
+    21300138: Sasuke_69
+    21300140: Sasuke_70
+    21300142: Sasuke_71
+    21300144: Sasuke_72
+    21300146: Sasuke_73
+    21300148: Sasuke_74
+    21300150: Sasuke_75
+    21300152: Sasuke_76
+    21300154: Sasuke_77
+    21300156: Sasuke_78
+    21300158: Sasuke_79
+    21300160: Sasuke_80
+    21300162: Sasuke_81
+    21300164: Sasuke_82
+    21300166: Sasuke_83
+    21300168: Sasuke_84
+    21300170: Sasuke_85
+    21300172: Sasuke_86
+    21300174: Sasuke_87
+    21300176: Sasuke_88
+    21300178: Sasuke_89
+    21300180: Sasuke_90
+    21300182: Sasuke_91
+    21300184: Sasuke_92
+    21300186: Sasuke_93
+    21300188: Sasuke_94
+    21300190: Sasuke_95
+    21300192: Sasuke_96
+    21300194: Sasuke_97
+    21300196: Sasuke_98
+    21300198: Sasuke_99
+    21300200: Sasuke_100
+    21300202: Sasuke_101
+    21300204: Sasuke_102
+    21300206: Sasuke_103
+    21300208: Sasuke_104
+    21300210: Sasuke_105
+    21300212: Sasuke_106
+    21300214: Sasuke_107
+    21300216: Sasuke_108
+    21300218: Sasuke_109
+    21300220: Sasuke_110
+    21300222: Sasuke_111
+    21300224: Sasuke_112
+    21300226: Sasuke_113
+    21300228: Sasuke_114
+    21300230: Sasuke_115
+    21300232: Sasuke_116
+    21300234: Sasuke_117
+    21300236: Sasuke_118
+    21300238: Sasuke_119
+    21300240: Sasuke_120
+    21300242: Sasuke_121
+    21300244: Sasuke_122
+    21300246: Sasuke_123
+    21300248: Sasuke_124
+    21300250: Sasuke_125
+    21300252: Sasuke_126
+    21300254: Sasuke_127
+    21300256: Sasuke_128
+    21300258: Sasuke_129
+    21300260: Sasuke_130
+    21300262: Sasuke_131
+    21300264: Sasuke_132
+    21300266: Sasuke_133
+    21300268: Sasuke_134
+    21300270: Sasuke_135
+    21300272: Sasuke_136
+    21300274: Sasuke_137
+    21300276: Sasuke_138
+    21300278: Sasuke_139
+    21300280: Sasuke_140
+    21300282: Sasuke_141
+    21300284: Sasuke_142
+    21300286: Sasuke_143
+    21300288: Sasuke_144
+    21300290: Sasuke_145
+    21300292: Sasuke_146
+    21300294: Sasuke_147
+    21300296: Sasuke_148
+    21300298: Sasuke_149
+    21300300: Sasuke_150
+    21300302: Sasuke_151
+    21300304: Sasuke_152
+    21300306: Sasuke_153
+    21300308: Sasuke_154
+    21300310: Sasuke_155
+    21300312: Sasuke_156
+    21300314: Sasuke_157
+    21300316: Sasuke_158
+    21300318: Sasuke_159
+    21300320: Sasuke_160
+    21300322: Sasuke_161
+    21300324: Sasuke_162
+    21300326: Sasuke_163
+    21300328: Sasuke_164
+    21300330: Sasuke_165
+    21300332: Sasuke_166
+    21300334: Sasuke_167
+    21300336: Sasuke_168
+    21300338: Sasuke_169
+    21300340: Sasuke_170
+    21300342: Sasuke_171
+    21300344: Sasuke_172
+    21300346: Sasuke_173
+    21300348: Sasuke_174
+    21300350: Sasuke_175
+    21300352: Sasuke_176
+    21300354: Sasuke_177
+    21300356: Sasuke_178
+    21300358: Sasuke_179
+    21300360: Sasuke_180
+    21300362: Sasuke_181
+    21300364: Sasuke_182
+    21300366: Sasuke_183
+    21300368: Sasuke_184
+    21300370: Sasuke_185
+    21300372: Sasuke_186
+    21300374: Sasuke_187
+    21300376: Sasuke_188
+    21300378: Sasuke_189
+    21300380: Sasuke_190
+    21300382: Sasuke_191
+    21300384: Sasuke_192
+    21300386: Sasuke_193
+    21300388: Sasuke_194
+    21300390: Sasuke_195
+    21300392: Sasuke_196
+    21300394: Sasuke_197
+    21300396: Sasuke_198
+    21300398: Sasuke_199
+    21300400: Sasuke_200
+    21300402: Sasuke_201
+    21300404: Sasuke_202
+    21300406: Sasuke_203
+    21300408: Sasuke_204
+    21300410: Sasuke_205
+    21300412: Sasuke_206
+    21300414: Sasuke_207
+    21300416: Sasuke_208
+    21300418: Sasuke_209
+    21300420: Sasuke_210
+    21300422: Sasuke_211
+    21300424: Sasuke_212
+    21300426: Sasuke_213
+    21300428: Sasuke_214
+    21300430: Sasuke_215
+    21300432: Sasuke_216
+    21300434: Sasuke_217
+    21300436: Sasuke_218
+    21300438: Sasuke_219
+    21300440: Sasuke_220
+    21300442: Sasuke_221
+    21300444: Sasuke_222
+    21300446: Sasuke_223
+    21300448: Sasuke_224
+    21300450: Sasuke_225
+    21300452: Sasuke_226
+    21300454: Sasuke_227
+    21300456: Sasuke_228
+    21300458: Sasuke_229
+    21300460: Sasuke_230
+    21300462: Sasuke_231
+    21300464: Sasuke_232
+    21300466: Sasuke_233
+    21300468: Sasuke_234
+    21300470: Sasuke_235
+    21300472: Sasuke_236
+    21300474: Sasuke_237
+    21300476: Sasuke_238
+    21300478: Sasuke_239
+    21300480: Sasuke_240
+    21300482: Sasuke_241
+    21300484: Sasuke_242
+    21300486: Sasuke_243
+    21300488: Sasuke_244
+    21300490: Sasuke_245
+    21300492: Sasuke_246
+    21300494: Sasuke_247
+    21300496: Sasuke_248
+    21300498: Sasuke_249
+    21300500: Sasuke_250
+    21300502: Sasuke_251
+    21300504: Sasuke_252
+    21300506: Sasuke_253
+    21300508: Sasuke_254
+    21300510: Sasuke_255
+    21300512: Sasuke_256
+    21300514: Sasuke_257
+    21300516: Sasuke_258
+    21300518: Sasuke_259
+    21300520: Sasuke_260
+    21300522: Sasuke_261
+    21300524: Sasuke_262
+    21300526: Sasuke_263
+    21300528: Sasuke_264
+    21300530: Sasuke_265
+    21300532: Sasuke_266
+    21300534: Sasuke_267
+    21300536: Sasuke_268
+    21300538: Sasuke_269
+    21300540: Sasuke_270
+    21300542: Sasuke_271
+    21300544: Sasuke_272
+    21300546: Sasuke_273
+    21300548: Sasuke_274
+    21300550: Sasuke_275
+    21300552: Sasuke_276
+    21300554: Sasuke_277
+    21300556: Sasuke_278
+    21300558: Sasuke_279
+    21300560: Sasuke_280
+    21300562: Sasuke_281
+    21300564: Sasuke_282
+    21300566: Sasuke_283
+    21300568: Sasuke_284
+    21300570: Sasuke_285
+    21300572: Sasuke_286
+    21300574: Sasuke_287
+    21300576: Sasuke_288
+    21300578: Sasuke_289
+    21300580: Sasuke_290
+    21300582: Sasuke_291
+    21300584: Sasuke_292
+    21300586: Sasuke_293
+    21300588: Sasuke_294
+    21300590: Sasuke_295
+    21300592: Sasuke_296
+    21300594: Sasuke_297
+    21300596: Sasuke_298
+    21300598: Sasuke_299
+    21300600: Sasuke_300
+    21300602: Sasuke_301
+    21300604: Sasuke_302
+    21300606: Sasuke_303
+    21300608: Sasuke_304
+    21300610: Sasuke_305
+    21300612: Sasuke_306
+    21300614: Sasuke_307
+    21300616: Sasuke_308
+    21300618: Sasuke_309
+    21300620: Sasuke_310
+    21300622: Sasuke_311
+    21300624: Sasuke_312
+    21300626: Sasuke_313
+    21300628: Sasuke_314
+    21300630: Sasuke_315
+    21300632: Sasuke_316
+    21300634: Sasuke_317
+    21300636: Sasuke_318
+    21300638: Sasuke_319
+    21300640: Sasuke_320
+    21300642: Sasuke_321
+    21300644: Sasuke_322
+    21300646: Sasuke_323
+    21300648: Sasuke_324
+    21300650: Sasuke_325
+    21300652: Sasuke_326
+    21300654: Sasuke_327
+    21300656: Sasuke_328
+    21300658: Sasuke_329
+    21300660: Sasuke_330
+    21300662: Sasuke_331
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sasuke_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1967
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1962
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_2
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1960
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1906
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1906
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1906
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1906
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1906
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1906
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1906
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1906
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_11
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1906
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1906
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_13
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1906
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1906
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1888
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1826
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1826
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1826
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1826
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1822
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_21
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1822
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1822
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1822
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_24
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1822
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1838
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_26
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1822
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_27
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1838
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1757
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1772
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1757
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1770
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1759
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_33
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1770
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_34
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1784
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1759
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_36
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1770
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1759
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_38
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1770
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_39
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1706
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_40
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1751
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_41
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1704
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_42
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1706
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_43
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1706
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_44
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1704
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_45
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1704
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_46
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1699
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_47
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1699
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1685
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1629
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_50
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1629
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1627
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1627
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_53
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1627
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_54
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1627
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_55
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1627
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_56
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1627
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_57
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1627
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_58
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1629
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_59
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1627
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1612
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_61
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1556
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_62
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1556
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1556
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_64
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1556
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_65
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1538
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_66
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1474
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_67
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1474
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_68
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1474
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_69
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1474
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_70
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1474
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_71
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1474
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_72
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1474
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_73
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1474
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1474
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_75
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1474
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1474
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_77
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1474
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1457
+        width: 55
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_79
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1455
+        width: 54
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_80
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1457
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_81
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1399
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_82
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1399
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_83
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1399
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_84
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1403
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_85
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1403
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_86
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1403
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_87
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1403
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_88
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1403
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_89
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1403
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_90
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1403
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_91
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1403
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_92
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1403
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_93
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1380
+        width: 77
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_94
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1380
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_95
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1310
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_96
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1310
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_97
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1310
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_98
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1320
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_99
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1327
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_100
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1335
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_101
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1335
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_102
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1339
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_103
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1331
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_104
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1337
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_105
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1339
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_106
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1331
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_107
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1310
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_108
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1310
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_109
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1314
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_110
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1327
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_111
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1329
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_112
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1327
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_113
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1329
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_114
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1314
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_115
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1312
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_116
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1314
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_117
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1316
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_118
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1314
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_119
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1316
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_120
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1314
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_121
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1316
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_122
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1248
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_123
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1248
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_124
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1277
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_125
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1279
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_126
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1277
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_127
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1279
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_128
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1277
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_129
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1279
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_130
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1262
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_131
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1264
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_132
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1262
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_133
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1264
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_134
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1262
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_135
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1264
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_136
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1175
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_137
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1180
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_138
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1182
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_139
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1180
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_140
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1180
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_141
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1209
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_142
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1211
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_143
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1209
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_144
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1213
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_145
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1209
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_146
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1180
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_147
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1213
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_148
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1196
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_149
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1198
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_150
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1196
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_151
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1198
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_152
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1196
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_153
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1198
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_154
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1146
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_155
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1146
+        width: 85
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_156
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1146
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_157
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1146
+        width: 49
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_158
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1082
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_159
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1082
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_160
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1082
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_161
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1078
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_162
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1078
+        width: 91
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_163
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1097
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_164
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1101
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_165
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1097
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_166
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1093
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_167
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1095
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_168
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1095
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_169
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1101
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_170
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1051
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_171
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1051
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 987
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_173
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 987
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_174
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 997
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_175
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1005
+        width: 66
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_176
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1012
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_177
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1012
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_178
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1016
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_179
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1008
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_180
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1014
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_181
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1016
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_182
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1008
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_183
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 993
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_184
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 993
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_185
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 993
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_186
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 993
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_187
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 991
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_188
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1005
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_189
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1006
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_190
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1005
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_191
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1006
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_192
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 991
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_193
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 989
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_194
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 991
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_195
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 993
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_196
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 991
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_197
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 993
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_198
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 991
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_199
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 993
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_200
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 912
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_201
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 912
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_202
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 916
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_203
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 917
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_204
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 921
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_205
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 921
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_206
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 921
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_207
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 921
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_208
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 921
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_209
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 921
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_210
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 921
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_211
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 921
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_212
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 921
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_213
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 856
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_214
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 856
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_215
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 856
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_216
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 856
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_217
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 856
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_218
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 854
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_219
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 856
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_220
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 854
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_221
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 821
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_222
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 740
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_223
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 740
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_224
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 751
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_225
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 757
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_226
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 765
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_227
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 765
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_228
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 769
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_229
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 761
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_230
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 767
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_231
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 769
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_232
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 761
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_233
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 740
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_234
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 743
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_235
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 743
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_236
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 743
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_237
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 745
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_238
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 757
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_239
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 759
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_240
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 757
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_241
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 759
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_242
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 745
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_243
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 743
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_244
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 743
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_245
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 745
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_246
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 743
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_247
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 745
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_248
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 745
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_249
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 747
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_250
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 709
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_251
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 705
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_252
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 709
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_253
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 653
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_254
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 653
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_255
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 653
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_256
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 653
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_257
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 645
+        width: 12
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_258
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 653
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_259
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 653
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_260
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 653
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_261
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 653
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_262
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 651
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_263
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 653
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_264
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 653
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_265
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 645
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_266
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 649
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_267
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 649
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_268
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 627
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_269
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 616
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_270
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 627
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_271
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 554
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_272
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 554
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_273
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 554
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_274
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 560
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_275
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 550
+        width: 12
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_276
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 585
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_277
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 556
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_278
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 560
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_279
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 597
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_280
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 571
+        width: 73
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_281
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 571
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_282
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 560
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_283
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 533
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_284
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 481
+        width: 89
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_285
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 481
+        width: 95
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_286
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 481
+        width: 89
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_287
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 475
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_288
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 481
+        width: 85
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_289
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 481
+        width: 81
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_290
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 481
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_291
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 481
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_292
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 448
+        width: 55
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_293
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 399
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_294
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 399
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_295
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 399
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_296
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 399
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_297
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 399
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_298
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 399
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_299
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 399
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_300
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 399
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_301
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 399
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_302
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 392
+        width: 13
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_303
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 438
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_304
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 413
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_305
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 339
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_306
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 374
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_307
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 326
+        width: 47
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_308
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 227
+        width: 232
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_309
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 227
+        width: 232
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_310
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 229
+        width: 231
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_311
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 208
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_312
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 208
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_313
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 148
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_314
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 148
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_315
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 150
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_316
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 150
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_317
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 150
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_318
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 150
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_319
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 150
+        width: 77
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_320
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 150
+        width: 77
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_321
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 150
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_322
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 152
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_323
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 150
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_324
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 105
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_325
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 105
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_326
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 105
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_327
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 102
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_328
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 103
+        width: 79
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_329
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 78
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_330
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 73
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sasuke_331
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 5
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

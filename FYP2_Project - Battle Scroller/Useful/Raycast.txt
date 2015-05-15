@@ -1,0 +1,24 @@
+//RayCast Line of Movement
+        bool ClearPathUp = true, ClearPathDown = true;
+        if (theUnit.CollidedUnwalkable)
+        {
+            RaycastHit[] Hit = Physics.RaycastAll(theUnit.transform.position, Vector3.up, 1.0f);
+            if (Hit != null)
+            {
+                foreach (RaycastHit hit in Hit)
+                {
+                    if (hit.collider.tag == "UNWALKABLE")
+                        ClearPathUp = false;
+                }
+            }
+
+            Hit = Physics.RaycastAll(theUnit.transform.position, -Vector3.up, 1.0f);
+            if (Hit != null)
+            {
+                foreach (RaycastHit hit in Hit)
+                {
+                    if (hit.collider.tag == "UNWALKABLE")
+                        ClearPathDown = false;
+                }
+            }
+        }
