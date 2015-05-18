@@ -1,0 +1,14 @@
+=== CHANGE LOG ===
+Model.cs
+isAnimated = true;
+CurAnimationIndex
+
+Global
+EngagingList
+
+Movement
+CurrentUnit
+
+Unit
+State
+>> Movement: Cater to theUnit.State
