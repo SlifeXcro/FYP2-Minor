@@ -22,15 +22,19 @@ public class AttackScript : MonoBehaviour
     } public AType AttackType = AType.ATTACK_DEFAULT;
 
     //Attack Key
-    public KeyCode AttackKey = KeyCode.Tab; //Default
+    public KeyCode AttackKey = KeyCode.Alpha0; //Default
+    public Button AttackButton; //Android
 
     //Combo Attacks
     public bool isCombo = false, executeCombo = false;
     public List<KeyCode> ListOfKeys = new List<KeyCode>(); //Combo Keys
     public List<KeyCode> StorageList = new List<KeyCode>(); //Storage List 
+    public List<Button> ListOfButtons = new List<Button>(); //Combo Keys (Android)
+    public List<Button> StorageList_Buttons = new List<Button>(); //Storage List (Android)
     public void ResetCombo()
     {
         StorageList.Clear();
+        StorageList_Buttons.Clear();
         this.executeCombo = false;
     }
 
@@ -44,12 +48,11 @@ public class AttackScript : MonoBehaviour
     public bool isAnimating = false,
                 finishedAnimating = false;
 
-    //Length (in Seconds) of Attacking Animation
-    protected float AnimationTime = 0.5f;
+    //Animation Timer
+    protected Timer.TimeBundle AnimationTimer;
 
     //Animation Index
-    protected short AnimationIndex = 1,
-                    AnimationTimeIndex;
+    protected short AnimationIndex = 1;
 
     //Animation
     public void ToggleAnimation()
@@ -61,7 +64,8 @@ public class AttackScript : MonoBehaviour
     //Parent Init
     protected void Init()
     {
-        AnimationTimeIndex = Timer.GetExecuteID(AnimationTime);
+        AnimationTimer.Time = 0.5f;
+        AnimationTimer.Index = Timer.GetExecuteID(AnimationTimer.Time);
     }
 
 	//Use this for initialization
@@ -85,6 +89,16 @@ public class AttackScript : MonoBehaviour
                     break;
                 }
             }
+
+            //Loop Through Buttons
+            for (short i = 0; i < ListOfButtons.Count; ++i)
+            {
+                if (ListOfButtons[i].Execute)
+                {
+                    StorageList_Buttons.Add(ListOfButtons[i]);
+                    break;
+                }
+            }
         }
 
         //Reset Input
@@ -101,13 +115,24 @@ public class AttackScript : MonoBehaviour
             if (i == ListOfKeys.Count - 1)
                 this.executeCombo = true;
         }
+
+        //Compare Buttons for Combo
+        for (short i = 0; i < ListOfButtons.Count; ++i)
+        {
+            if (StorageList_Buttons.Count < ListOfButtons.Count)
+                break;
+            if (ListOfButtons[i] != StorageList_Buttons[i])
+                break;
+            if (i == ListOfButtons.Count - 1)
+                this.executeCombo = true;
+        }
     }
 
     //Parent Update
     protected void StaticUpdate()
     {
         //Check state of current Animation
-        if (this.isAnimating && Timer.ExecuteTime(this.AnimationTime, AnimationTimeIndex))
+        if (this.isAnimating && Timer.ExecuteTime(AnimationTimer.Time, AnimationTimer.Index))
         {
             this.finishedAnimating = true;
             this.isAnimating = false;

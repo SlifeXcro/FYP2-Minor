@@ -7,22 +7,30 @@ using System.Collections.Generic;
 
 // --- Dynamically Calculates Passed Time
 // --- Dynamically Calculates Elapsed Time
+// --- (Use Time Struct for Time Calculations)
 
-public class Timer : MonoBehaviour 
+public class Timer : MonoBehaviour
 {
+    //Time Struct
+    public struct TimeBundle
+    {
+        public float Time;
+        public short Index;
+    };
+
     //Returns True if reaches Time desired
     public static List<float> CurTime = new List<float>();
-    public static short GetExecuteID(float Seconds) 
+    public static short GetExecuteID(float Seconds)
     { CurTime.Add(Seconds); return (short)CurTime.Count; }
     public static bool ExecuteTime(float Seconds, short ID)
     {
         if (ID > CurTime.Count)
             return false;
 
-        CurTime[ID-1] -= Time.deltaTime;
-        if (CurTime[ID-1] <= 0)
+        CurTime[ID - 1] -= Time.deltaTime;
+        if (CurTime[ID - 1] <= 0)
         {
-            CurTime[ID-1] = Seconds;
+            CurTime[ID - 1] = Seconds;
             return true;
         }
         return false;
@@ -37,10 +45,10 @@ public class Timer : MonoBehaviour
         if (ID > ElapsedTime.Count)
             return -1;
 
-        ElapsedTime[ID-1] -= Time.deltaTime;
-        if (ElapsedTime[ID-1] <= 0)
-            ElapsedTime[ID-1] = Seconds;
+        ElapsedTime[ID - 1] -= Time.deltaTime;
+        if (ElapsedTime[ID - 1] <= 0)
+            ElapsedTime[ID - 1] = Seconds;
 
-        return ElapsedTime[ID-1];
+        return ElapsedTime[ID - 1];
     }
 }

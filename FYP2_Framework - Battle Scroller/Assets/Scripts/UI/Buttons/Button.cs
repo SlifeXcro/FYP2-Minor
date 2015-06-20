@@ -5,10 +5,9 @@ using System.Collections;
 public class Button : MonoBehaviour
 {
     //Flag to determine if Button has been selected
-    public bool Selected = false;
-
-    //Flag to determine when to execute Buttons's function
-    protected bool ExecuteFunc = false;
+    public bool Selected = false,
+                Execute = false,
+                OnClick = true;
 
     // 0 - Default Tex
     // 1 - Selected Tex
@@ -18,9 +17,13 @@ public class Button : MonoBehaviour
     public enum BType
     {
         BUTTON_DEFAULT,
-        BUTTON_PAUSE,      
+        BUTTON_PAUSE,
         BUTTON_COMBAT,
-        BUTTON_CAM
+        BUTTON_CAM,
+        BUTTON_A,
+        BUTTON_B,
+        BUTTON_TRANSITION,
+        BUTTON_EXIT
     } public BType ButtonType = BType.BUTTON_DEFAULT;
 
     //Every Button has its own Function
@@ -32,18 +35,16 @@ public class Button : MonoBehaviour
     //Parent Update
     public void StaticUpdate()
     {
-        if (InputScript.Instance.InputCollided(this.gameObject.collider))
+        if (InputScript.InputCollided(this.gameObject.GetComponent<Collider>(), OnClick))
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                SpriteToChange = Tex[1]; //Change to Clicked Sprite
-                ExecuteFunc = Selected = true;
-            }
+            SpriteToChange = Tex[1]; //Change to Clicked Sprite
+            Selected = Execute = true;
+            ExecuteFunction();
         }
         else
         {
             SpriteToChange = Tex[0]; //Reset to Default Sprite
-            ExecuteFunc = Selected = false;
+            Selected = Execute = false;
         }
     }
 

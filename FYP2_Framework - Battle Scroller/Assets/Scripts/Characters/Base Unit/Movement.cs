@@ -70,7 +70,7 @@ public class Movement : MonoBehaviour
 
 #if UNITY_EDITOR || UNITY_STANDALONE
 #elif UNITY_ANDROID
-        MovementSpeed *= 0.4f;
+        MovementSpeed *= 0.85f;
 #endif
     }
 
@@ -112,16 +112,16 @@ public class Movement : MonoBehaviour
                 break;
             case KeyCode.UpArrow:
             case KeyCode.W:
-                if (!(theUnit.theModel.WalkCollisionRegion.CollidedUnwalkable && CurrentKey == Key))
+                if (!(theUnit.theModel.CollisionRegions.CollidedUnwalkable && CurrentKey == Key))
                     theUnit.transform.Translate(0, MovementSpeed * Time.deltaTime, 0);
-                if (!theUnit.theModel.WalkCollisionRegion.CollidedUnwalkable)
+                if (!theUnit.theModel.CollisionRegions.CollidedUnwalkable)
                     CurrentKey = Key;
                 break;
             case KeyCode.DownArrow:
             case KeyCode.S:
-                if (!(theUnit.theModel.WalkCollisionRegion.CollidedUnwalkable && CurrentKey == Key))
+                if (!(theUnit.theModel.CollisionRegions.CollidedUnwalkable && CurrentKey == Key))
                     theUnit.transform.Translate(0, -MovementSpeed * Time.deltaTime, 0);
-                if (!theUnit.theModel.WalkCollisionRegion.CollidedUnwalkable)
+                if (!theUnit.theModel.CollisionRegions.CollidedUnwalkable)
                     CurrentKey = Key;
                 break;
             default:
@@ -130,21 +130,14 @@ public class Movement : MonoBehaviour
         }
     }
 
-    public static bool RayCastMovement(Vector3 Pos)
+    public static bool RayCastMovement(Vector3 Pos, Vector3 Dir, float Dist)
     {
         // *** RAYCASTING OF MOVEMENT *** //
         //Check if Path is Clear
         bool ClearPath = true;
 
-        //Set Distance
-        float Dist = 0.0f;
-        if (Analog.Instance.GetTravelDir().y > 0)
-            Dist = 3.3f;
-        else
-            Dist = 10.0f;
-
         //Raycast Line of Movement
-        RaycastHit[] Hit = Physics.RaycastAll(Pos, Analog.Instance.GetTravelDir(), Dist);
+        RaycastHit[] Hit = Physics.RaycastAll(Pos, Dir, Dist);
 
         //Check if Raycast line has hit unwalkable objects
         if (Hit != null)
@@ -157,6 +150,12 @@ public class Movement : MonoBehaviour
             }
         }
 
+        //Debug Line
+        if (ClearPath)
+            Debug.DrawRay(Pos, Dir, Color.green);
+        else
+            Debug.DrawRay(Pos, Dir, Color.red);
+
         return !ClearPath;
         // *** END OF RAYCASTING *** //
     }
@@ -168,9 +167,9 @@ public class Movement : MonoBehaviour
         if (CameraPan.Instance.theUnit != null && CameraPan.Instance.theUnit != this.theUnit)
             CameraPan.Instance.theUnit = this.theUnit;
 
+        bool AllKeysClear = true;
 #if UNITY_EDITOR || UNITY_STANDALONE
         //Check if Unit is Moving
-        bool AllKeysClear = true;
         for (short i = 0; i < ListOfMovementKeys.Count; ++i)
         {
             if (Input.GetKey(ListOfMovementKeys[i]))
@@ -189,7 +188,10 @@ public class Movement : MonoBehaviour
         if (Analog.Instance.Move)
         {
             theUnit.State = Unit.EState.MOVE;
-            bool ClearPath = !RayCastMovement(theUnit.theModel.WalkCollisionRegion.transform.position);
+
+            //RayCast
+            Vector3 theDir = new Vector3(Analog.Instance.GetTravelDir().x, Analog.Instance.GetTravelDir().y, 0);
+            bool ClearPath = !RayCastMovement(theUnit.theModel.CollisionRegions.transform.position, theDir, 1.0f);
 
             isMoving = true;
 
@@ -198,9 +200,9 @@ public class Movement : MonoBehaviour
 
             //Only Move when path is clear
             if (ClearPath)
-                theUnit.transform.Translate(Analog.Instance.GetTravelDir() * MovementSpeed * Time.deltaTime * 10.0f);
-            else
-                theUnit.transform.Translate(Vector3.zero);
+                theUnit.transform.Translate(Analog.Instance.GetTravelDir() * MovementSpeed * Time.deltaTime * 1.1f);
+            else if (isMoving)
+                theUnit.transform.Translate(Analog.Instance.GetTravelDir().x * MovementSpeed * Time.deltaTime * 1.1f, 0, 0);
 
             //Flip
             if (Analog.Instance.GetTravelDir().x < 0)
@@ -230,7 +232,6 @@ public class Movement : MonoBehaviour
         {
             isMoving = false;
             theUnit.transform.Translate(Vector3.zero);
-            //theUnit.State = Unit.EState.IDLE;
         }
 
         //Set Player Sprite & Animation to IDLE if Game is Paused
@@ -242,14 +243,14 @@ public class Movement : MonoBehaviour
         {
             //if (Global.FreeCam)
             //{
-            flipped = false;
-            PlayerLastPos = theUnit.transform.position;
+                flipped = false;
+                PlayerLastPos = theUnit.transform.position;
 
-            if (!CombatManager.Instance.isAttacking)
-            {
-                theUnit.theModel.SetAnimation(0);
-                theUnit.State = Unit.EState.IDLE;
-            }
+                if (!CombatManager.Instance.isAttacking)
+                {
+                    theUnit.theModel.SetAnimation(0);
+                    theUnit.State = Unit.EState.IDLE;
+                }
             //}
         }
     }

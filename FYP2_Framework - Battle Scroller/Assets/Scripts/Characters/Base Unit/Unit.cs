@@ -71,17 +71,17 @@ public class Unit : MonoBehaviour
     public bool isPlayerUnit = false;
 
     //Fall State Timer
-    float FallTime = 0.7f;
-    short FallStateTimerID;
+    Timer.TimeBundle FallTimer;
 
     //Randomize Stats
     public virtual void RandomizeStats()
     {
         Debug.Log("Default Unit Stats Inited.");
-        Stats.Set(1, Random.Range(300, 500),
-                  Random.Range(150, 250), Random.Range(100, 200),
-                  Random.Range(150, 250), Random.Range(100, 200),
-                  Random.Range(0.7f, 1.2f));
+        if (Stats != null)
+            Stats.Set(1, Random.Range(300, 500),
+                      Random.Range(150, 250), Random.Range(100, 200),
+                      Random.Range(150, 250), Random.Range(100, 200),
+                      Random.Range(0.7f, 1.2f));
     }
 
     //Self Init
@@ -92,18 +92,20 @@ public class Unit : MonoBehaviour
         this.UnitID = UniqueID;
 
         //Set Fall Time
-        FallStateTimerID = Timer.GetExecuteID(FallTime);
+        FallTimer.Time = 0.7f;
+        FallTimer.Index = Timer.GetExecuteID(FallTimer.Time);
 
         //Init Default Stats if class is not inherited
         if (!Inherited)
             RandomizeStats();
 
         //Init Game Object Tag
-        theModel.gameObject.tag = this.gameObject.tag = "UNIT";
+        if (theModel.gameObject.tag == null)
+            theModel.gameObject.tag = this.gameObject.tag = "UNIT";
     }
 
 	//Use this for initialization
-	void Start () 
+	public void Start () 
     {
         Init();
 	}
@@ -125,7 +127,7 @@ public class Unit : MonoBehaviour
             case EState.ATTACK:
                 break;
             case EState.FALL:
-                if (Timer.ExecuteTime(FallTime, FallStateTimerID))
+                if (Timer.ExecuteTime(FallTimer.Time, FallTimer.Index))
                     State = EState.IDLE;
                 break;
             default:
@@ -148,7 +150,10 @@ public class Unit : MonoBehaviour
 
         //Destroy if Dead
         if (this.Stats.HP <= 0.0f)
+        {
+            ++Global.EnemyKillCount;
             Destroy(this.gameObject);
+        }
 
         //FSM
         UpdateStateChange();
@@ -180,7 +185,7 @@ public class Unit : MonoBehaviour
     }
 
     //Update is called once per frame
-    void Update() 
+   public void Update() 
     {
         StaticUpdate();
 	}

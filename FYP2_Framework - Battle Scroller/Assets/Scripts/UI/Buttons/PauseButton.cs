@@ -4,7 +4,7 @@ using System.Collections;
 public class PauseButton : Button 
 {
     // *** Inherited Virtual Functions *** //
-    public void ExecuteFunction()
+    public override void ExecuteFunction()
     {
         Global.GamePause = true;
         Debug.Log("Game has been paused!");
@@ -22,9 +22,5 @@ public class PauseButton : Button
     {
 	    //Update from Parent Class
         this.StaticUpdate();
-
-        //Execute Button's Function
-        if (ExecuteFunc)
-            ExecuteFunction();
 	}
 }

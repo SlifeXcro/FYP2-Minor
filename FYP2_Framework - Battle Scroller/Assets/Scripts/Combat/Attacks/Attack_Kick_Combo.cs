@@ -28,7 +28,7 @@ public class Attack_Kick_Combo : AttackScript
         this.AnimationIndex = 5;
 
         //Set Anim Time
-        this.AnimationTime = 0.7f;
+        this.AnimationTimer.Time = 0.7f;
 	}
 	
 	//Update is called once per frame

@@ -3,18 +3,24 @@ using System.Collections;
 
 public class CollisionRegion : MonoBehaviour 
 {
-    //Flag to Check if Unit has made contact with Unwalkable Objects
-    public bool CollidedUnwalkable = false;
+    //Flag to check if Unit has made contact with another Collider
+	public bool inRegion = false;
 
-    //Check if Unit has Collided with Unwalkable Objects
-    void OnTriggerEnter(Collider col)
+    //Region's Type
+    public enum RegionType
     {
-        if (col.gameObject.tag == "UNWALKABLE" || col.gameObject.tag == "UNIT")
-            CollidedUnwalkable = true;
+        REGION_UNWALKABLE
+    } public RegionType Type;
+
+	void OnTriggerStay(Collider col)
+    {
+        if (col.gameObject.tag == "UNWALKABLE" || col.gameObject.tag == "PLAYER")
+            inRegion = true;
     }
+
     void OnTriggerExit(Collider col)
     {
-        if (col.gameObject.tag == "UNWALKABLE" || col.gameObject.tag == "UNIT")
-            CollidedUnwalkable = false;
+		if (col.gameObject.tag == "UNWALKABLE" || col.gameObject.tag == "PLAYER")
+			inRegion = false;
     }
 }

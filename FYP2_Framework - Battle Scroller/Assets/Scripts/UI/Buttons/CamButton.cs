@@ -12,7 +12,7 @@ public class CamButton : Button
     } public CB_Type Type;
 
     // *** Inherited Virtual Functions *** //
-    public void ExecuteFunction()
+    public override void ExecuteFunction()
     {
         switch (Type)
         {
@@ -45,10 +45,6 @@ public class CamButton : Button
     {
         //Update from Parent Class
         this.StaticUpdate();
-
-        //Execute Button's Function
-        if (ExecuteFunc)
-            ExecuteFunction();
 
         //Toggle Sprite Change
         if (Global.FreeCam)

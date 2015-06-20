@@ -16,8 +16,8 @@ public class MapGenerator : MonoBehaviour
         {
             for (short j = 0; j < GROUND_VER; ++j)
             {
-                GroundTex = Instantiate(GroundTex, new Vector3(GroundTex.collider.bounds.size.x * i - OffSet_X,
-                                                               GroundTex.collider.bounds.size.y * j - OffSet_Y, 10),
+                GroundTex = Instantiate(GroundTex, new Vector3(GroundTex.GetComponent<Collider>().bounds.size.x * i - OffSet_X,
+                                                               GroundTex.GetComponent<Collider>().bounds.size.y * j - OffSet_Y, 10),
                                                                Quaternion.identity) as SpriteRenderer;
                 GroundTex.transform.parent = Parent;
             }

@@ -35,8 +35,9 @@ public class CombatManager : MonoBehaviour
 
     //Combos
     public bool ComboActive = false;
-    float ComboTime = 2.0f;
-    short ComboTimerIndex;
+    
+    //Combo Timer
+    Timer.TimeBundle ComboTimer;
 
     //List of Attacks (Combos)
     public List<AttackScript> ListOfAttacks = new List<AttackScript>();
@@ -52,7 +53,8 @@ public class CombatManager : MonoBehaviour
         mInstance = this;
 
         //Set Timer
-        ComboTimerIndex = Timer.GetExecuteID(ComboTime);
+        ComboTimer.Time = 2.0f;
+        ComboTimer.Index = Timer.GetExecuteID(ComboTimer.Time);
 
         //Set Text to NULL
         if (ComboBar != null)
@@ -100,7 +102,7 @@ public class CombatManager : MonoBehaviour
 	void Update () 
     {
         //Timer for Combos
-        ComboActive = !Timer.ExecuteTime(ComboTime, ComboTimerIndex);
+        ComboActive = !Timer.ExecuteTime(ComboTimer.Time, ComboTimer.Index);
         if (!ComboActive)
             ComboString = null;
 
@@ -126,6 +128,8 @@ public class CombatManager : MonoBehaviour
                     ProceedToAttack = true;
                     string TempString = ComboString;
                     ComboString = "Executing Combo! (" + TempString + ")";
+
+                    ++Global.ExecuteFirstComboCheck;
                 }
             }
 
@@ -134,6 +138,19 @@ public class CombatManager : MonoBehaviour
             {
                 //Check for Key Input
                 if (Input.GetKeyDown(ListOfAttacks[i].AttackKey))
+                {
+                    ProceedToAttack = true;
+
+                    bool bAdd = true;
+                    if (ComboString != null && ComboString.Length > 3 && ComboString.Substring(0, 3) == "Exe")
+                        bAdd = false;
+
+                    if (bAdd)
+                        ComboString += ConvertKeyToString(ListOfAttacks[i].AttackKey);
+                }
+
+                //Check for Button Input
+                if (ListOfAttacks[i].AttackButton != null && ListOfAttacks[i].AttackButton.Execute)
                 {
                     ProceedToAttack = true;
 

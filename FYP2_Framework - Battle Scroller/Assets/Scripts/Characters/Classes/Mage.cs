@@ -8,7 +8,7 @@ public class Mage : Unit
     {
         Debug.Log("Mage Stats Inited.");
         Stats.Set(1, Random.Range(500, 700),
-                  Random.Range(190, 270), Random.Range(150, 220),
+                  Random.Range(900, 1100), Random.Range(150, 220),
                   Random.Range(190, 270), Random.Range(150, 220),
                   Random.Range(1.1f, 1.75f), "Mage", "Tsunayoshi");
     }

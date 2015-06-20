@@ -12,6 +12,8 @@ public class Global : MonoBehaviour
     public static int CurrentItemID = -1;
     public static List<Unit> EngagingUnitList = new List<Unit>(); //List of engaging Units
     public static bool FreeCam = false; //Detect if Camera is "Free"
+    public static short EnemyKillCount = 0;
+    public static short ExecuteFirstComboCheck = 0;
 
     //Start Function
     void Start()

@@ -32,7 +32,7 @@ public class Item : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1) && InputScript.Instance.InputCollided(this.gameObject.collider)) // Right Click
+        if (Input.GetMouseButtonDown(1) && InputScript.InputCollided(this.gameObject.GetComponent<Collider>())) // Right Click
             Delete = true;  // Delete the item
     }
 }

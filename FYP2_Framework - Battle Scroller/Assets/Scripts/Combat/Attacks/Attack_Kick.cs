@@ -22,7 +22,7 @@ public class Attack_Kick : AttackScript
         this.AnimationIndex = 3;
 
         //Set Anim Time
-        this.AnimationTime = 0.5f;
+        this.AnimationTimer.Time = 0.5f;
     }
 
     //Update is called once per frame

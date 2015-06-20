@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Model : MonoBehaviour 
 {
-    //Every Model has it's own Walking Collision Region
-    public CollisionRegion WalkCollisionRegion;
+    //Every Model has it's own Collision Regions
+    public ColliderManager CollisionRegions;
     public bool isAnimated = true;
     public short CurAnimationIndex = 0;
 

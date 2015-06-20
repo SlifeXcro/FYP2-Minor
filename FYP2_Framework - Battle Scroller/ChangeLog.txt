@@ -1,14 +1,15 @@
 === CHANGE LOG ===
-Model.cs
-isAnimated = true;
-CurAnimationIndex
+Achievement System
 
-Global
-EngagingList
+=== TO DO ===
+Analog Fix
 
-Movement
-CurrentUnit
+=== FROM BRANCH === 
+HPBar to HpBar
+Collision Script
+Unit.cs change tag only when tag = null (mage as well)
 
-Unit
-State
->> Movement: Cater to theUnit.State
+=== ADVANCEMENT ===
+AI
+
+=== DONE ===
